@@ -1,0 +1,113 @@
+*{
+	margin:auto;
+	padding: 0;
+	font-family: century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0.5,0.5,0.5,0.5),rgba(0.5,0.5,0.5,0.5)), url(../1.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style:none;
+	margin: 25px;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top:62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px transparent;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+.search{
+	position: absolute;
+	top: 5%;
+	left: 30%;
+	transform: translate(-5%,-30%);
+	background:#CDD4C3;
+	height: 20px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search:hover > .text1{
+	width: 240px;
+	padding: 0 6px;
+}
+.search:hover > .search1{
+	background: white;
+}
+}
+.search1{
+	color: #e84118;
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+.text1{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding:0px;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 20px;
+	width: 0px;
+}
